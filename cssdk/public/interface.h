@@ -142,6 +142,7 @@ extern CSysModule			*Sys_LoadModule( const char *pModuleName );
 extern void					Sys_UnloadModule( CSysModule *pModule );
 
 extern CreateInterfaceFn	Sys_GetFactory( CSysModule *pModule );
+extern CSysModule 			*Sys_GetModuleHandle(const char *pModuleName);
 
 
 #endif
